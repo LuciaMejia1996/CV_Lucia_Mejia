@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'work-sans';
+    src: url('../fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf');
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid; 
+    grid-template-columns: 42vmin 1fr;
+    grid-template-rows: 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Parte informacion sobre mi persona*/
+body > div.info{
+    grid-area: 1;
+    background-color: rgb(60, 60, 73);
+    color: white;
+    padding: 4vmin;
+}
+
+body > div.inf_2{
+    grid-area: 0;
+    background-color: rgb(245, 245, 220);
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    align-items: left;
+
+}
+
+.info > *{
+    margin-bottom: 3vmin;
+}
+
+.info > img{
+    margin-top: 1.0vmin;
+    width:30vmin;
+    height:30vmin;
+    border-radius: 55vmin;
+}
+
+.info > h2 {
+    font-size: 3.5vmin;
+    align-items: flex-end;
+    margin-bottom: 1vmin;
+}
+
+.info > .separator{
+    width: 35vmin;
+    border: 1px solid bisque;
+    background-color: bisque;
+}
+
+
+.info > p {
+    font-size: 1.8vmin;
+    line-height: 2.5vmin;
+    margin-bottom: 2vmin;
+}
+
+.info > ul > li {
+    padding-bottom: 1vmin;
+    margin-left: 2vmin;
+    font-size: 1.9vmin;
+}
+
+.info > h3:first-of-type{
+    font-size: 2.5vmin;
+    font-weight: bold;
+    color: bisque;
+}
+
+.personal{
+    margin-top: 2vmin;
+    font-size: 2.3vmin;
+    color: bisque;
+}
+
+.info > ul#contact > li > a{ 
+    text-decoration: none;
+    color: white;
+}
+
+/*Mis experiencias mi formacion y demas*/
+
+.inf_2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;   
+    align-items: left;
+    padding-left: 5vmin;
+    padding-right: 4vmin;
+    
+}
+
+.inf_2 > div#formation > .separator{
+    margin-top: 4vmin;
+    border: 1.5vmin solid bisque;
+    background-color:bisque;
+    text-align: left;
+    font-size: 3.5vmin;
+    color: rgb(60, 60, 73);
+    font-weight: bold;
+
+}
+
+.inf_2 > div#formation > h3{
+    text-transform: uppercase;
+    padding-top: 4vmin;
+    font-size: 2.3vmin;
+    font-weight: bold;
+}
+
+.inf_2 > div#formation > h5{
+    padding-top: 1vmin;
+    font-size: 1.8vmin;
+    padding-bottom: 2vmin;
+}
+
+.inf_2 > div#formation > h5.normal{
+    padding-top: 1vmin;
+    font-weight: normal;
+    padding-bottom: 2vmin;
+}
+
+.inf_2 > div#formation > ul > li {
+    padding-top: 1vmin;
+    font-size: 2vmin;
+    list-style-type: none;
+ 
+}
+
+.inf_2 > div#experiencia > .separator,
+.inf_2 > div#Tecno > .separator{
+    margin-top: 4vmin;
+    border: 1.5vmin solid bisque;
+    background-color:bisque;
+    text-align: left;
+    font-size: 3.5vmin;
+    color: rgb(60, 60, 73);
+    font-weight: bold;
+
+}
+
+.inf_2 > div#experiencia > h3{
+    text-transform: uppercase;
+    padding-top: 4vmin;
+    font-size: 2.3vmin;
+    font-weight: bold;
+}
+
+.inf_2 > div#experiencia > h5{
+    padding-top: 1vmin;
+    font-size: 1.8vmin;
+    padding-bottom: 2vmin;
+}
+
+.inf_2 > div#experiencia > h5.normal{
+    padding-top: 1vmin;
+    font-weight: normal;
+    padding-bottom: 2vmin;
+}
+
+.inf_2 > div#experiencia > ul > li {
+    padding-top: 1vmin;
+    font-size: 2vmin;
+    list-style-type: none;
+ 
+}
+
+.inf_2 > div#Tecno > ul > li{
+    padding-top: 1vmin;
+    padding-left: 2vmin;
+    font-size: 2vmin;
+    list-style-type: none;
+    text-align: left;
+}
+
+.inf_2 > div#Tecno {
+    padding-bottom: 4vmin;
+}
