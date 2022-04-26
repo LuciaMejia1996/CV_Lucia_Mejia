@@ -22,6 +22,16 @@ body{
 
 }
 
+body > div.inf_2 > div#formation > *  bold-data,.normal bold-data,
+body > div.inf_2 > div#experiencia > * bold-data {
+    font-weight: bold;
+}
+
+body > div.inf_2 > div#Tecno  > ul > li{
+    color: rgb(38, 0, 70);
+    font-weight: bold;
+}
+
 /*Parte informacion sobre mi persona*/
 body > div.info{
     grid-area: 1;
