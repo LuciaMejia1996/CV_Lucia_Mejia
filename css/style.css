@@ -194,12 +194,21 @@ body > div.inf_2{
  
 }
 
+.inf_2 > div#Tecno > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
 .inf_2 > div#Tecno > ul > li{
     padding-top: 1vmin;
     padding-left: 2vmin;
     font-size: 2vmin;
     list-style-type: none;
     text-align: left;
+    
 }
 
 .inf_2 > div#Tecno {
