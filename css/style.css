@@ -157,7 +157,8 @@ body > div.inf_2{
 }
 
 .inf_2 > div#experiencia > .separator,
-.inf_2 > div#Tecno > .separator{
+.inf_2 > div#Tecno > .separator,
+.inf_2 > div#proyects > .separator{
     margin-top: 4vmin;
     border: 1.5vmin solid bisque;
     background-color:bisque;
@@ -202,7 +203,8 @@ body > div.inf_2{
 
 }
 
-.inf_2 > div#Tecno > ul > li{
+.inf_2 > div#Tecno > ul > li,
+.inf_2 > div#proyects > ul > li{
     padding-top: 1vmin;
     padding-left: 2vmin;
     font-size: 2vmin;
@@ -211,6 +213,14 @@ body > div.inf_2{
     
 }
 
-.inf_2 > div#Tecno {
+.inf_2 > div#Tecno,
+.inf_2 > div#proyects {
     padding-bottom: 4vmin;
+}
+
+.inf_2 > div#proyects > ul > li a{ 
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(82, 52, 107);
+
 }
