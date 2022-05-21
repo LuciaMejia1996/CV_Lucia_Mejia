@@ -149,6 +149,13 @@ body > div.inf_2{
     padding-bottom: 2vmin;
 }
 
+.inf_2 > div#formation > h5.normal > a.certi{
+    text-decoration: none;
+    color: rgb(108, 149, 202);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .inf_2 > div#formation > ul > li {
     padding-top: 1vmin;
     font-size: 2vmin;
